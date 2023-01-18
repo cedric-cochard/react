@@ -29,14 +29,14 @@ const Form = () => {
           <div
             className="btn-sort"
             id="goodToBad"
-            onClick={(e) => setSortGoogBad("goodToBad")}
+            onClick={() => setSortGoogBad("goodToBad")}
           >
             Top<span>→</span>
           </div>
           <div
             className="btn-sort"
             id="badToGood"
-            onClick={(e) => setSortGoogBad("badToGood")}
+            onClick={() => setSortGoogBad("badToGood")}
           >
             Bad<span>→</span>
           </div>
